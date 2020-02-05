@@ -3,5 +3,6 @@ int a;
 int b;
 
 soma=a+b;
-
-print("Resultado", soma);
+sub=a-b;
+print("Resultado soma", soma);
+print("Resultado subtração", sub);
