@@ -6,3 +6,12 @@ soma=a+b;
 sub=a-b;
 print("Resultado soma", soma);
 print("Resultado subtração", sub);
+
+...
+Questao 1, verifica se o numero e duvisivel por 2, e se e positivo natural
+...
+a = 5
+if(a % 2 == 0) & (a > 0):
+    print("POSITIVO INTERIRO E DIVISIVEL POR 2")
+else:
+    print("NAO ATENDE")
