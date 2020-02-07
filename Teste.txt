@@ -15,3 +15,17 @@ if(a % 2 == 0) & (a > 0):
     print("POSITIVO INTERIRO E DIVISIVEL POR 2")
 else:
     print("NAO ATENDE")
+
+
+...
+Questão 2, verifica se um numero e um quadrado perfeito
+...
+num = 400
+count=0
+while count <= num:
+    if(count*count==num):
+        print("PERFEITO", count)
+        break
+    else:
+        print("NÃO PERFEITO", count)
+    count += 1
