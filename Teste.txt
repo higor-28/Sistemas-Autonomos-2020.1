@@ -29,3 +29,10 @@ while count <= num:
     else:
         print("NÃO PERFEITO", count)
     count += 1
+
+...
+Questão 3, verifica a quantidade de caracteres de uma string
+...
+texto = 'olá mundo '
+
+print ("Quantidade de cacacteres:",len ( texto ));
