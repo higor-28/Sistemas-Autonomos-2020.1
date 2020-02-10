@@ -36,3 +36,14 @@ Questão 3, verifica a quantidade de caracteres de uma string
 texto = 'olá mundo '
 
 print ("Quantidade de cacacteres:",len ( texto ));
+
+...
+Questão 4, verifica a ocorrencia de caracteres em uma palavra
+...
+frase = str(input("Digite uma palavra para análise: "))
+indice = 0
+while indice < len(frase):
+    letra = frase[indice]
+    print (letra)
+    indice = indice + 1
+   
