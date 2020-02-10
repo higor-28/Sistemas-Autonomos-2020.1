@@ -40,10 +40,14 @@ print ("Quantidade de cacacteres:",len ( texto ));
 ...
 Questão 4, verifica a ocorrencia de caracteres em uma palavra
 ...
-frase = str(input("Digite uma palavra para análise: "))
-indice = 0
-while indice < len(frase):
-    letra = frase[indice]
-    print (letra)
-    indice = indice + 1
-   
+def frequenci (palavra):
+    dicionario = {}
+    for n in palavra:
+    keys = dicionario.keys()
+    if n in keys:
+        dicionario[n] +=1
+        else:
+        dicionario[n] =1
+        
+    return dicionario
+print(frequencia('google'))    
