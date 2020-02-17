@@ -6,3 +6,5 @@ soma=a+b;
 sub=a-b;
 print("Resultado soma", soma);
 print("Resultado subtração", sub);
+
+kmoik
